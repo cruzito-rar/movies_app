@@ -4,7 +4,7 @@ body{
  font-family: 'Quicksand', sans-serif;
  background-image: url('https://images.alphacoders.com/123/1239346.png');
  background-repeat: no-repeat;
- background-size: cover;
+ background-size: 100vw 100vh;
 }
 
 .movies-content {
@@ -149,7 +149,7 @@ p.author {
  display: flex;
  justify-content: center;
  font-variant: JIS04;
- margin-top: 3%;
+ margin-top: 40%;
  gap: 7px;
  color: #FFFFFF;
 }

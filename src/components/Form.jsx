@@ -18,6 +18,7 @@ const Form = () => {
     <input type='text' placeholder='Titulo de la película' onChange={event => setTitle(event.target.value)}/>
     <input type='submit' value='Buscar'/>
    </form>
+   {error && <p className='error'> This movie, doesn't exist </p>}
   </div>
  );
 }

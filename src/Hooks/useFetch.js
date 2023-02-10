@@ -13,19 +13,19 @@ export const useFetch = params => {
   .then(response => response.json())
   .then(data => {
    if(data.response === true) {
-    setData(data.Search);
+    setData(data.Search || data);
     setError(false);
    }
    else {
     setError(true);
    }
    setIsLoading(false);
-  }).catch(error => console.log(error));
+  }).catch(error => {console.log(error);});
  }
 
  useEffect(() => {
   fetchMovie(`${API_ENDPOINT}${params}`);
- }, [params]);
+ }, [params])
 
  return {isLoading, error, data}
 }

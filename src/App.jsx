@@ -1,6 +1,9 @@
 import './App.css';
 import Form from './components/Form';
 import Movies from './components/Movies';
+import Main from './components/Main';
+import Single from './components/Single';
+import {Routes, Route, BrowserRouter} from 'react-router-dom';
 
 // omdbapi.com/?apikey=f8e80ec0&s=superman
 
@@ -9,8 +12,12 @@ import Movies from './components/Movies';
 function App() {
  return (
   <div className="App">
-   <Form/>
-   <Movies/>
+   <BrowserRouter>
+    <Routes>
+     <Route path='/' element={<Main/>}/>
+     <Route path='/movies/:id' element={<Single/>}/>
+    </Routes>
+   </BrowserRouter>
   </div>
  );
 }
