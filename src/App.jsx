@@ -1,11 +1,7 @@
 import './App.css';
-import Form from './components/Form';
-import Movies from './components/Movies';
 import Main from './components/Main';
 import Single from './components/Single';
 import {Routes, Route, BrowserRouter} from 'react-router-dom';
-
-// omdbapi.com/?apikey=f8e80ec0&s=superman
 
 // omdbapi.com/?apikey=f8e80ec0&i=tt11796304
 

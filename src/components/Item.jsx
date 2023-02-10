@@ -8,9 +8,9 @@ const Item = ({id, title, type, year, poster}) => {
  return (
   <Link to={`/movies/${id}`} style={{color: 'inherit', textDecoration: 'none'}}>
    <article>
-    <div className="item" style={{backgroundImage: `url(${image})`}}>
+    <div className="item" style={{backgroundImage: `url(${poster})`}}>
      <div className="info">
-      <h4> {title} </h4>
+      <h5> {title} </h5>
       <p className="row-info"> <span> {type} </span> <span> {year} </span> </p>
      </div>
     </div>

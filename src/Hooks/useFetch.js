@@ -11,9 +11,9 @@ export const useFetch = params => {
   setIsLoading(true);
   fetch(url)
   .then(response => response.json())
-  .then(data => {
-   if(data.response === true) {
-    setData(data.Search || data);
+  .then(respuesta => {
+   if(respuesta.Response === "True") {
+    setData(respuesta.Search || respuesta);
     setError(false);
    }
    else {
@@ -25,7 +25,7 @@ export const useFetch = params => {
 
  useEffect(() => {
   fetchMovie(`${API_ENDPOINT}${params}`);
- }, [params])
+ }, [params]);
 
  return {isLoading, error, data}
 }
