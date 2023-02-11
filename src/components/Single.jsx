@@ -18,7 +18,7 @@ const Single = () => {
   !isLoading ? <div className='single-movie'>
    <img src={image} alt={Title}/>
    <div className='single-info'>
-    <h2> {Title} </h2>
+    <h2 className='mb-3'> <strong> {Title} </strong> </h2>
     <p> {Plot} </p>
     <p> <strong> Country: </strong> {Country} </p>
     <p> <strong> Director: </strong> {Director} </p>

@@ -9,7 +9,7 @@
 }
 
 body{
- background-image: url('https://coolhdwall.com/storage/202103/minimalist-background-twilight-breeze-4k-wallpaper-3840x2160.jpg');
+ background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEglGdSkIC0ZTIkzRXIlV4Drmo5mdJfYfRgih-TVg3WLnnQUYIT28tRki5Q2-WwsnVFW5l1W_8E3KXovmoJ4jXW-gSuQ_AVPYfHdOm4aOvlkI170STdxK4gKwg8rV_0pd8H6-X5rGE0BL36-efxuyowmLxVS-A9oCd_2tmzorX_QbH7Gr1u3e8iJcbcbxw/s16000/heroscreen-20042022-COLORS-DESKTOP-1@2x.png');
  background-repeat: no-repeat;
  background-size: cover;
 }
@@ -32,7 +32,7 @@ body{
 
 .item:hover > .info {
  color: #FFFFFF;
- background-color: #000000;
+ background-color: #000000E2;
 }
 
 .info {
@@ -92,7 +92,7 @@ body{
 }
 
 .form-search input[type="submit"]:hover {
- background-color: #483f3f;
+ background-color: #34567C;
 }
 
 .App {

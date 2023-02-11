@@ -13,10 +13,10 @@ const Form = () => {
 
  return (
   <div className='form-search'>
-   <h2 className='mb-4'> Movies Finder </h2>
+   <h2 className='mb-4'> Movies/Series Finder </h2>
    <form onSubmit={handleSubmit}>
     <input type='text' placeholder='Movie/Serie Title' onChange={event => setTitle(event.target.value)}/>
-    <input type='submit' value='Buscar'/>
+    <input type='submit' value='Search'/>
    </form>
    {error && <p className='error'> This movie, doesn't exist </p>}
   </div>
