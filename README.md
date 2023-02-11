@@ -1,6 +1,6 @@
-# 🎨 Movies Finder
+# 🎬 Movies/Series Finder
 
-![photo3](https://user-images.githubusercontent.com/54298536/218238371-49a45f90-d513-4ee7-b524-6ab078cbfd5a.png)
+![photo3](https://user-images.githubusercontent.com/54298536/218239807-0bfb8250-9976-435d-a6f9-c0e11661dfff.png)
 
 
 # 🪐 Demo
