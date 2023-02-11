@@ -15,7 +15,7 @@ const Form = () => {
   <div className='form-search'>
    <h2 className='mb-4'> Movies Finder </h2>
    <form onSubmit={handleSubmit}>
-    <input type='text' placeholder='Titulo de la película' onChange={event => setTitle(event.target.value)}/>
+    <input type='text' placeholder='Movie/Serie Title' onChange={event => setTitle(event.target.value)}/>
     <input type='submit' value='Buscar'/>
    </form>
    {error && <p className='error'> This movie, doesn't exist </p>}

@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
 
+::-webkit-scrollbar {
+ width: 0%;
+}
+
 * {
  font-family: 'Quicksand', sans-serif;
 }
 
 body{
- background-image: url('https://wallpaperaccess.com/full/3051442.jpg');
+ background-image: url('https://www.wallpapertip.com/wmimgs/116-1167118_minimalist-wallpaper-hd-mountain.jpg');
  background-repeat: no-repeat;
- background-size: 100% 100%;
-}
-
-::-webkit-scrollbar {
- width: 0%;
+ background-size: cover;
 }
 
 .movies-content {
@@ -107,6 +107,7 @@ body{
 }
 
 /* single movie */
+
 .single-movie {
  display: flex;
  gap: 25px;
@@ -132,6 +133,7 @@ body{
  border-radius: 15px;
  object-fit: cover;
  width: 300px;
+ cursor: pointer;
 }
 
 /* loading animation */
@@ -142,8 +144,8 @@ body{
  margin: 0 auto;
  margin-top: 10rem;
  border-radius: 50%;
- border: 8px solid #000000;
- border-top-color: #FCAF3C;
+ border: 8px solid #FFFFFF;
+ border-top-color: #E2695C;
  animation: spinner .6s linear infinite;
 }
 

@@ -12,7 +12,7 @@ export const useFetch = params => {
   fetch(url)
   .then(response => response.json())
   .then(respuesta => {
-   if(respuesta.Response === "True") {
+   if(respuesta.Response === 'True') {
     setData(respuesta.Search || respuesta);
     setError(false);
    }

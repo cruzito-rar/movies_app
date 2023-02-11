@@ -1,5 +1,5 @@
-import Form from "./Form";
-import Movies from "./Movies";
+import Form from './Form';
+import Movies from './Movies';
 
 const Main = () => {
  return (
