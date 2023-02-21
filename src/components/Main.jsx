@@ -3,10 +3,10 @@ import Movies from './Movies';
 
 const Main = () => {
  return (
-   <>
-    <Form/>
-    <Movies/>
-   </>
+  <>
+   <Form/>
+   <Movies/>
+  </>
  );
 }
 
