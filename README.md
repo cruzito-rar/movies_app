@@ -19,7 +19,7 @@ cd movies_app
 npm install
 ```
 ```
-npm run dev
+npm run start
 ```
 
 # 🧑🏻‍💻 Technologies
