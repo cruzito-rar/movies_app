@@ -1,7 +1,6 @@
 # 🎬 Movies/Series Finder
 
-![photo3](https://user-images.githubusercontent.com/54298536/218239807-0bfb8250-9976-435d-a6f9-c0e11661dfff.png)
-
+![work2](https://github.com/cruzito-rar/movies_app/assets/54298536/f8e92be8-eb03-4a60-82a1-9fb02cfa31f6)
 
 # 🪐 Demo
 
