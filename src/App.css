@@ -8,9 +8,8 @@
  font-family: 'Montserrat', sans-serif;
 }
 
-body{
- /* background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEglGdSkIC0ZTIkzRXIlV4Drmo5mdJfYfRgih-TVg3WLnnQUYIT28tRki5Q2-WwsnVFW5l1W_8E3KXovmoJ4jXW-gSuQ_AVPYfHdOm4aOvlkI170STdxK4gKwg8rV_0pd8H6-X5rGE0BL36-efxuyowmLxVS-A9oCd_2tmzorX_QbH7Gr1u3e8iJcbcbxw/s16000/heroscreen-20042022-COLORS-DESKTOP-1@2x.png'); */
- background-color: #F2F2F2;
+body {
+ background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEglGdSkIC0ZTIkzRXIlV4Drmo5mdJfYfRgih-TVg3WLnnQUYIT28tRki5Q2-WwsnVFW5l1W_8E3KXovmoJ4jXW-gSuQ_AVPYfHdOm4aOvlkI170STdxK4gKwg8rV_0pd8H6-X5rGE0BL36-efxuyowmLxVS-A9oCd_2tmzorX_QbH7Gr1u3e8iJcbcbxw/s16000/heroscreen-20042022-COLORS-DESKTOP-1@2x.png');
  background-repeat: no-repeat;
  background-size: cover;
 }
@@ -104,7 +103,7 @@ body{
 .form-search h2 {
  font-size: 50px;
  font-weight: bold;
- color: #333333;
+ color: #ffffff;
 }
 
 /* single movie */
@@ -155,13 +154,13 @@ p.author {
  justify-content: center;
  font-variant: JIS04;
  gap: 7px;
- color: #333333;
+ color: #ffffff;
 }
 
 p.author a {
  text-decoration: none;
  font-weight: 700;
- color: #333333;
+ color: #ffffff;
 }
 
 @keyframes spinner {

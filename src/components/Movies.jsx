@@ -6,7 +6,9 @@ const Movies = () => {
  const {isLoading, data} = useContext(Data);
 
  return (
-  <div className='movies-content'>
+  <div className="row">
+    <div className="col">
+    <div className='movies-content'>
    {
     !isLoading ? data.map(item => (
      <Item
@@ -18,6 +20,8 @@ const Movies = () => {
       poster={item.Poster}
      />
    )) : ''}
+  </div>
+    </div>
   </div>
  );
 }

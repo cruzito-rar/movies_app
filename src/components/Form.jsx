@@ -7,7 +7,6 @@ const Form = () => {
 
  const handleSubmit = event => {
   setSearch(title);
-  console.log('data: ', title);
   event.preventDefault();
  }
 
