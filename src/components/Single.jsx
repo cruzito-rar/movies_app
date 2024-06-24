@@ -1,7 +1,7 @@
 import defaultImage from '/defaultImage.png';
 import { useEffect } from 'react';
 import {useParams} from 'react-router-dom';
-import {useFetch} from '../hooks/useFetch';
+import {useFetch} from '../Hooks/useFetch';
 
 const Single = () => {
  const {id} = useParams();
