@@ -9,7 +9,7 @@
 # 🏴 Getting Started
 
 ```
-git clone https://github.com/cruzito-exe/movies_app.git
+git clone https://github.com/cruzito-rar/movies_app.git
 ```
 ```
 cd movies_app
